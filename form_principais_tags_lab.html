@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Formulário - principais tags - lab</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Heloisa">
+    <meta name="description" content="Descrição TOP!">
+    <meta name="keywords" content="HTML5, CSS3, JS">
+</head>
+
+<body>
+
+    <h1>Formulário - principais tags - lab</h1>
+
+    <form action="#" method="PUT" target="_self">
+        <fieldset>
+            <legend>Dados Pessoais </legend>
+            <label for="txtNome">Nome:</label>
+            <input type="text" id="txtNome" required minlength="10" maxlength="80">
+            <br>
+
+            <label for="txtEmail">E-mail:</label>
+            <input id="txtEmail" type="email" required minlength="5" maxlength="15"
+                placeholder="Informe um e-mail válido!">
+            <br>
+
+            <label>Data de nascimento:</label>
+            <input type="date" min="1900-01-01" max="2022-03-29">
+            <br>
+
+            <label for="txtAtuação">Área de atuação:</label>
+            <input type="text" id="txtAtuação" minlength="50" required>
+            <br>
+
+            <label for="txtResumo">Resumo das principais atividades desenvolvidas:</label>
+            <textarea style="resize: none;" name="msg" cols="30" rows="5" minlength="150"></textarea> 
+            <br>
+
+        </fieldset>
+
+        <input type="submit" value="Mandar">
+    </form>
+</body>
+
+</html>
