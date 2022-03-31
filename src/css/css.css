@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    background-color: blueviolet;
+}
+
+div{
+    background-color: brown;
+}
+
+.paragrafoAmarelo {
+    background-color: yellow;
+    font-size: 20px;
+}
+#paragrafoTeste{
+    background-color: bisque;
+}
