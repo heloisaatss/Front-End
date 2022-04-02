@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>html - base</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Heloisa">
+    <meta name="description" content="Descrição TOP">
+    <meta name="keywords" content="HTML5, CSS3, JS">
+
+</head>
+
+<style>
+    h1{
+        color:darkgreen;
+        border-style: dashed;
+    }
+
+    p{
+        border-bottom-style: solid;
+        background-color:bisque;
+    }
+
+</style>
+
+<script>
+
+    document.write('<h1>Lógica de programação com js</h1>')
+
+    document.write('<h2>Lista de números</h2>')
+
+    var numeroInformado = parseInt(prompt('Informe um número'))
+
+    for (let index = 1; index <= numeroInformado; index++) {
+        document.write('<p>' + index + '</p>')
+    }
+
+</script>
+
+<body>
+
+</body>
+
+</html>
