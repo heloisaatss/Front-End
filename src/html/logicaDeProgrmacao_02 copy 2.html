@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>html - base</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Heloisa">
+    <meta name="description" content="Descrição TOP">
+    <meta name="keywords" content="HTML5, CSS3, JS">
+
+</head>
+
+<style>
+    p {
+        font-style: oblique;
+    }
+</style>
+
+<script>
+
+    var numeroInformado = parseInt(prompt('Informe um número para a tabuada'))
+
+    var numeroInicial = 1
+    var numeroFinal = 10
+
+    for (numeroInicial; numeroInicial <= numeroFinal; numeroInicial++) {
+        var resultado = numeroInformado * numeroInicial
+        document.write('<p>' + numeroInformado + ' x ' + numeroInicial + ' = ' + resultado + '</p>')
+        document.write('<hr>')
+    }
+
+</script>
+
+<body>
+
+</body>
+
+</html>
