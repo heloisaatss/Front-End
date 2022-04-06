@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>html - base</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Heloisa">
+    <meta name="description" content="Descrição TOP">
+    <meta name="keywords" content="HTML5, CSS3, JS">
+
+</head>
+
+<style>
+    body{
+        width: 25%;
+
+    }
+</style>
+
+<script>
+    /* for (let index = 0; index < 10; index++) {
+        document.write('<p>Opa!' + index + ' </p>')
+        
+    }
+    document.write('<hr>')
+
+    var indexWhile = 0
+    while (indexWhile < 10) {
+        document.write('<p>Opa! while ' + indexWhile + ' </p>')
+        indexWhile++
+    }*/
+
+    function opa(){
+        var valorAnterior = document.getElementById('divResultado').innerHTML;
+        console.log(valorAnterior)
+
+        document.getElementById('divResultado').innerHTML = 'Outro valor'
+    }
+
+    function salvar(){
+
+        var nome = document.getElementById('txtNome').value;    
+        console.log(nome)
+
+        alert('Registro enviado com sucesso!')
+    }
+
+</script>
+
+<body>
+    <h1>cadastro</h1>
+    <form action="#">
+
+        <div>
+            <label for="txtNome">Nome:</label>
+        </div>
+        <div>
+            <input type="text" id="txtNome">
+        </div>
+        <br>
+
+        <div>
+            <label for="txtE-mail">E-mail:</label>
+        </div>
+        <div>
+            <input type="text" id="txtE-mail">
+        </div>
+        <br>
+
+        <div>
+            <label for="txtTelefone">Telefone:</label>
+        </div>
+        <div>
+            <input type="text" id="txtTelefone">
+        </div>
+        <br>
+
+        <div>
+            <label for="txtMensagem">Mensagem:</label>
+        </div>
+        <div>
+            <input type="text" id="txtMensagem">
+        </div>
+        <br>
+
+        <div>
+            <input type="reset" value="Enviar">
+            <input type="reset" value="Apagar">
+        </div>
+
+    </form>
+</body>
+
+</html>
